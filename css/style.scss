@@ -4,6 +4,7 @@
     --color-theme-light: #EDFCFA;
     --color-theme-dark: #0E153D;
     --color-dark: #080C24;
+    --color-white: #FFFFFF;
     --color-gray-0: #AAAAAA;
     --color-gray-1: #CCCCCC;
     --color-gray-2: #E3E3E3;
@@ -35,4 +36,15 @@ html, body {
     font-family: var(--font-roboto);
     font-weight: var(--font-weight-regular);
     color: var(--color-theme-dark);
+}
+
+/* header-menu-top */
+.header-menu-top {
+    background-color: var(--color-theme);
+    color: var(--color-white);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
