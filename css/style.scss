@@ -28,3 +28,11 @@
     --border-radius-medium: 25px;
     --border-radius-rounded: 50%;
 }
+
+html, body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-theme-dark);
+}
