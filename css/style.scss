@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 :root {
     --color-theme: #20d3c2;
     --color-theme-light: #EDFCFA;
@@ -10,4 +11,10 @@
     --color-gray-4: #F6F6F6;
     --color-product-instock: #82d8c6;
     --color-product-outofstock: #FE6C6C;
+
+    --font-play: 'Play', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
 }
