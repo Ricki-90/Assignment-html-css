@@ -42,6 +42,8 @@ html, body {
   color: var(--color-white);
 }
 .header-menu-top .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
