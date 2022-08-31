@@ -49,6 +49,17 @@ html, body {
   align-items: center;
   height: 40px;
 }
+.header-menu-top .container .site-settings {
+  display: flex;
+}
+.header-menu-top .container .dropdown-theme button {
+  background-color: var(--color-theme);
+  color: var(--color-white);
+  border: none;
+}
+.header-menu-top .container .dropdown-theme button:hover {
+  color: var(--color-theme-dark);
+}
 .header-menu-top .container .menu-links a {
   color: var(--color-white);
   text-decoration: none;
@@ -65,18 +76,4 @@ html, body {
 }
 .header-menu-top .container .menu-links .social-media a:last-child {
   margin: 0 0 0 0.3rem;
-}
-
-.site-settings {
-  display: flex;
-}
-
-.header-menu-top .dropdown-theme button {
-  background-color: var(--color-theme);
-  color: var(--color-white);
-  border: none;
-}
-
-.header-menu-top .dropdown-theme button:hover {
-  color: var(--color-theme-dark);
 }/*# sourceMappingURL=style.css.map */

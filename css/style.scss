@@ -51,6 +51,20 @@ html, body {
         align-items: center;
         height: 40px;
 
+        .site-settings {
+            display: flex;      
+        }
+                
+        .dropdown-theme button {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+        }
+        
+            .dropdown-theme button:hover {
+                color: var(--color-theme-dark);
+            }
+
         .menu-links {
         
             a {
@@ -78,18 +92,3 @@ html, body {
     }
 
 }
-
-.site-settings {
-    display: flex;
-}
-
-
-.header-menu-top .dropdown-theme button {
-    background-color: var(--color-theme);
-    color: var(--color-white);
-    border: none; 
-}
-
-    .header-menu-top .dropdown-theme button:hover {
-        color: var(--color-theme-dark);
-    }
