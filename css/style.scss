@@ -50,25 +50,29 @@ html, body {
         align-items: center;
 
         .menu-links {
+            padding: 0.8rem 0;
 
             a {
                 color: var(--color-white);
                 text-decoration: none;
-                margin: 1.2rem;
+                margin: 0 1.2rem;
             }
 
             a:hover {
                 color: var(--color-theme-dark);
             }
 
-            .social-media {
-                margin-left: 1rem;
-            }
+                .social-media {
+                margin-left: 1rem;  
+                }
 
-            .social-media a {
-                margin: 0.3rem;
-            }
-        
+                .social-media a {
+                margin: 0 0.3rem;
+                }
+                
+                .social-media a:last-child {
+                margin: 0 0 0 0.3rem;
+                }
         }
 
     }

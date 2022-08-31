@@ -47,10 +47,13 @@ html, body {
   justify-content: space-between;
   align-items: center;
 }
+.header-menu-top .container .menu-links {
+  padding: 0.8rem 0;
+}
 .header-menu-top .container .menu-links a {
   color: var(--color-white);
   text-decoration: none;
-  margin: 1.2rem;
+  margin: 0 1.2rem;
 }
 .header-menu-top .container .menu-links a:hover {
   color: var(--color-theme-dark);
@@ -59,5 +62,8 @@ html, body {
   margin-left: 1rem;
 }
 .header-menu-top .container .menu-links .social-media a {
-  margin: 0.3rem;
+  margin: 0 0.3rem;
+}
+.header-menu-top .container .menu-links .social-media a:last-child {
+  margin: 0 0 0 0.3rem;
 }/*# sourceMappingURL=style.css.map */
