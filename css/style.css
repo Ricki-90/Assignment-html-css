@@ -28,6 +28,7 @@
   --border-radius-rounded: 50%;
 }
 
+/* general */
 html, body {
   font-size: 16px;
   line-height: 1.5;
@@ -66,4 +67,14 @@ html, body {
 }
 .header-menu-top .container .menu-links .social-media a:last-child {
   margin: 0 0 0 0.3rem;
+}
+
+.header-menu-top .dropdown-theme button {
+  background-color: var(--color-theme);
+  color: var(--color-white);
+  border: none;
+}
+
+.header-menu-top .dropdown-theme button:hover {
+  color: var(--color-theme-dark);
 }/*# sourceMappingURL=style.css.map */
