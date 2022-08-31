@@ -47,9 +47,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header-menu-top .container .menu-links {
-  padding: 0.8rem 0;
+  height: 40px;
 }
 .header-menu-top .container .menu-links a {
   color: var(--color-white);
@@ -67,6 +65,10 @@ html, body {
 }
 .header-menu-top .container .menu-links .social-media a:last-child {
   margin: 0 0 0 0.3rem;
+}
+
+.site-settings {
+  display: flex;
 }
 
 .header-menu-top .dropdown-theme button {
