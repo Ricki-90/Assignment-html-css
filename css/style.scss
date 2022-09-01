@@ -100,7 +100,32 @@ html, body {
 }
 
 /* header-menu-middle */
+.header-menu-middle {
 
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .brand {
+            flex: 2;
+        }
+        .search {
+            flex: 3;
+        }
+        .links {
+            flex: 2;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        
+
+
+    }
+
+
+}
 
 
 

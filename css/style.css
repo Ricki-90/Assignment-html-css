@@ -86,6 +86,24 @@ html, body {
 }
 
 /* header-menu-middle */
+.header-menu-middle .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-middle .container .brand {
+  flex: 2;
+}
+.header-menu-middle .container .search {
+  flex: 3;
+}
+.header-menu-middle .container .links {
+  flex: 2;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {
     display: block;
