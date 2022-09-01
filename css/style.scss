@@ -48,7 +48,7 @@ html, body {
     .container {
         height: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
         align-items: center;
 
         .site-settings {
@@ -99,18 +99,46 @@ html, body {
     }
 }
 
+/* header-menu-middle */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 578px) {
     .header-menu-top .container .menu-links {
         display: block;
     }
-}
-@media (min-width: 992px) {
     .header-menu-top .container {
         justify-content: space-between;
     }
+}
 
+@media (min-width: 992px) {
     .header-menu-top .container .links {
         display: inline;
     }
-    
 }
