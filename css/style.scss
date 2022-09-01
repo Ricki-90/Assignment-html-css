@@ -52,55 +52,56 @@ html, body {
         align-items: center;
 
         .site-settings {
-            display: flex;      
-            }
+        display: flex;      
+        }
                 
-            .dropdown-theme button {
-            background-color: var(--color-theme);
-            color: var(--color-white);
-            border: none;
-            }
+        .dropdown-theme button {
+        background-color: var(--color-theme);
+        color: var(--color-white);
+        border: none;
+        }
         
-            .dropdown-theme button:hover {
-                color: var(--color-theme-dark);
+        .dropdown-theme button:hover {
+            color: var(--color-theme-dark);
+        }
+
+        .links {
+        display: none;
+        }
+
+        .menu-links {
+        display: none;
+        }
+            .menu-links {          
+            a {
+            color: var(--color-white);
+            text-decoration: none;
+            margin: 0 1.2rem;
             }
 
-            .links {
-            display: none;
+            a:hover {
+            color: var(--color-theme-dark);
             }
 
-            .menu-links {
-            display: none;
+            .social-media {
+            margin-left: 1rem;
+            font-size: var(--font-size-14)
             }
-                .menu-links {          
-                a {
-                color: var(--color-white);
-                text-decoration: none;
-                margin: 0 1.2rem;
-                }
 
-                a:hover {
-                color: var(--color-theme-dark);
-                }
-
-                .social-media {
-                margin-left: 1rem;
-                font-size: var(--font-size-14)
-                }
-
-                .social-media a {
-                margin: 0 0.3rem;
-                }
+            .social-media a {
+            margin: 0 0.3rem;
+            }
                 
-                .social-media a:last-child {
-                margin: 0 0 0 0.3rem;
-                } 
+            .social-media a:last-child {
+            margin: 0 0 0 0.3rem;
+            } 
             } 
     }
 }
 
 /* header-menu-middle */
 .header-menu-middle {
+    padding: 2rem 0;
 
     .container {
         display: flex;
@@ -111,20 +112,29 @@ html, body {
             flex: 2;
         }
         .search {
-            flex: 3;
+            flex: 4;
         }
-        .links {
-            flex: 2;
+        .menu-links {
+            flex: 3;
             display: flex;
             justify-content: end;
             align-items: center;
+
+            .menu-link {
+                text-decoration: none;
+                color: var(--color-theme-dark);
+                margin: 0 0.2rem;
+            }
+
+            .menu-link:hover {
+                color: var(--color-theme);
+            }
+
+            .menu-link i {
+                font-size: var(--font-size-16);
+            }
         }
-        
-
-
     }
-
-
 }
 
 
