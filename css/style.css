@@ -48,6 +48,7 @@ html, body {
   display: flex;
   justify-content: end;
   align-items: center;
+  padding: 0;
 }
 .header-menu-top .container .site-settings {
   display: flex;
@@ -56,6 +57,7 @@ html, body {
   background-color: var(--color-theme);
   color: var(--color-white);
   border: none;
+  padding: 0;
 }
 .header-menu-top .container .dropdown-theme button:hover {
   color: var(--color-theme-dark);
@@ -125,7 +127,7 @@ html, body {
 .header-menu-middle .container .menu-links .menu-link i {
   font-size: var(--font-size-16);
 }
-.header-menu-middle .border {
+.header-menu-middle .main-border {
   border-top: 1px solid var(--color-gray-2);
 }
 

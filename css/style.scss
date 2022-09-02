@@ -50,6 +50,7 @@ html, body {
         display: flex;
         justify-content: end;
         align-items: center;
+        padding: 0;
 
         .site-settings {
         display: flex;      
@@ -59,6 +60,7 @@ html, body {
         background-color: var(--color-theme);
         color: var(--color-white);
         border: none;
+        padding: 0;
         }
         
         .dropdown-theme button:hover {
@@ -146,7 +148,7 @@ html, body {
         }
     }
 
-    .border {
+    .main-border {
         border-top: 1px solid var(--color-gray-2);
     }
 }
