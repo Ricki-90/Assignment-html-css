@@ -127,8 +127,23 @@ html, body {
 .header-menu-middle .container .menu-links .menu-link i {
   font-size: var(--font-size-16);
 }
-.header-menu-middle .main-border {
+
+.header-menu-bottom {
   border-top: 1px solid var(--color-gray-2);
+}
+.header-menu-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-bottom .container .browse-categories {
+  flex: 2;
+}
+.header-menu-bottom .container .special-offer {
+  flex: 7;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 @media (min-width: 578px) {

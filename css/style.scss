@@ -39,6 +39,10 @@ html, body {
     color: var(--color-theme-dark);
 }
 
+
+
+
+
 /* header-menu-top */
 .header-menu-top {
     background-color: var(--color-theme);
@@ -147,9 +151,26 @@ html, body {
             }
         }
     }
+}
 
-    .main-border {
-        border-top: 1px solid var(--color-gray-2);
+.header-menu-bottom {
+    border-top: 1px solid var(--color-gray-2);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+                
+        .browse-categories {
+            flex: 2;
+        }
+        
+        .special-offer {
+            flex: 7;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
     }
 }
 
