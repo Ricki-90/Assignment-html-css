@@ -87,12 +87,14 @@ html, body {
 
 /* header-menu-middle */
 .header-menu-middle {
-  padding: 2rem 0;
+  background-color: var(--color-white);
+  color: var(--color-theme-dark);
 }
 .header-menu-middle .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2.2rem 0;
 }
 .header-menu-middle .container .brand {
   flex: 2;
@@ -114,8 +116,17 @@ html, body {
 .header-menu-middle .container .menu-links .menu-link:hover {
   color: var(--color-theme);
 }
+.header-menu-middle .container .menu-links .menu-link:last-child {
+  margin: 0 0 0 0.8rem;
+}
+.header-menu-middle .container .menu-links .menu-link:first-child {
+  margin: 0 5rem 0 0;
+}
 .header-menu-middle .container .menu-links .menu-link i {
   font-size: var(--font-size-16);
+}
+.header-menu-middle .border {
+  border-top: 1px solid var(--color-gray-2);
 }
 
 @media (min-width: 578px) {
