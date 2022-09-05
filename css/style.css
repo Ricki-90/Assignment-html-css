@@ -42,8 +42,8 @@ html, body {
   color: var(--color-white);
   border-radius: var(--border-radius-medium);
   font-weight: var(--font-weight-medium);
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 .btn-theme .btn-theme:hover {
   background-color: var(--color-theme-dark);
@@ -142,6 +142,7 @@ html, body {
 
 .header-menu-bottom {
   border-top: 1px solid var(--color-gray-2);
+  border-bottom: 1px solid var(--color-gray-2);
 }
 .header-menu-bottom > .container {
   display: flex;
