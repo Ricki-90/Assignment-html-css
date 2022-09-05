@@ -215,29 +215,22 @@ html, body {
 
         .showcase-body {
 
-            h1 {
-                font-family: var(--font-play);
+             h1 {
                 font-size: var(--font-size-60);
-
-                strong {
-                    color: var(--color-theme);
-                }
+                font-family: var(--font-play);
             }
-        }
+
+            strong {
+                font-weight: var(--font-weight-bold);
+                color: var(--color-theme);
+            }
+
+            a {
+                display: inline-block;
+            }
+        } 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -253,8 +246,34 @@ html, body {
     }
 }
 
+@media (min-width: 768px) {
+    .showcase .showcase-body h1 {
+        font-size: var(--font-size-60);
+    }
+
+    .showcase .showcase-body p {
+        display: block;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+}
+
 @media (min-width: 992px) {
     .header-menu-top .container .links {
         display: inline;
     }
+
+    .showcase-body .showcase-body h1 {
+        text-align: left;
+    }
+
+    .showcase .showcase-body p {
+        text-align: left;
+    }
+
+    .showcase img {
+        display: block;
+        width: 50%;
+        height: 100;
+   }
 }
