@@ -179,6 +179,18 @@ html, body {
 .showcase {
   background-color: var(--color-gray-3);
 }
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase .container .showcase-body h1 {
+  font-family: var(--font-play);
+  font-size: var(--font-size-60);
+}
+.showcase .container .showcase-body h1 strong {
+  color: var(--color-theme);
+}
 
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {
