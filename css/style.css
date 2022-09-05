@@ -175,6 +175,11 @@ html, body {
   align-items: center;
 }
 
+/* showcase */
+.showcase {
+  background-color: var(--color-gray-3);
+}
+
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {
     display: block;
