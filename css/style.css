@@ -215,15 +215,14 @@ html, body {
 .webshop-info {
   padding: 4rem 0;
 }
-.webshop-info .container-fluid {
+.webshop-info .container {
   max-width: 1600px;
   display: flex;
   justify-content: space-evenly;
 }
-.webshop-info .container-fluid .info-box {
+.webshop-info .container .info-box {
   margin: 0 2rem;
   flex: 1;
-  border: 1px solid black;
 }
 
 @media (min-width: 578px) {

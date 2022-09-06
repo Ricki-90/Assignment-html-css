@@ -253,7 +253,7 @@ html, body {
 .webshop-info {
     padding: 4rem 0;
 
-    .container-fluid {
+    .container {
         max-width: 1600px;
         display: flex;
         justify-content: space-evenly;
@@ -261,7 +261,6 @@ html, body {
         .info-box {
             margin: 0 2rem;
             flex: 1;
-            border: 1px solid black;
         }
 
 
