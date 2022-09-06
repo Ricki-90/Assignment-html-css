@@ -52,6 +52,18 @@ html, body {
     }
 }
 
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-theme);
+    border-radius: var(--border-radius-medium);
+    font-weight: var(--font-weight-medium);
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+
+    .btn-white:hover {
+        background-color: var(--color-theme-dark);
+    }
+}
 
 
 /* header-menu-top */
@@ -225,7 +237,12 @@ html, body {
                 color: var(--color-theme);
             }
 
+            p {
+                margin: 2rem 0;
+            }
+
         }
+
         img {
             display: none;
         } 
@@ -254,7 +271,7 @@ html, body {
 }
 
 @media (min-width: 768px) {
-    .showcase-body {
+    .showcase .showcase-body {
 
         h1 {
            font-size: var(--font-size-60);
@@ -271,7 +288,7 @@ html, body {
         display: inline;
     }
 
-    .showcase-body .container {
+    .showcase .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
