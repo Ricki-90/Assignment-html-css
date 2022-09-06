@@ -17,9 +17,9 @@
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
-  --font-size-14: 1,17rem;
-  --font-size-16: 1,33rem;
-  --font-size-18: 1,50rem;
+  --font-size-14: 1.17rem;
+  --font-size-16: 1.33rem;
+  --font-size-18: 1.50rem;
   --font-size-24: 2rem;
   --font-size-36: 3rem;
   --font-size-60: 5rem;
@@ -137,7 +137,7 @@ html, body {
 .header-menu-middle > .container .menu-links .menu-link {
   text-decoration: none;
   color: var(--color-theme-dark);
-  margin: 0 0.2rem;
+  margin: 0 0.8rem;
 }
 .header-menu-middle > .container .menu-links .menu-link:hover {
   color: var(--color-theme);
@@ -168,7 +168,7 @@ html, body {
   background-color: var(--color-theme);
   border: none;
   color: var(--color-white);
-  font-size: var(--font-size-18);
+  font-size: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -209,6 +209,21 @@ html, body {
 }
 .showcase .container img {
   display: none;
+}
+
+/*webshop-info*/
+.webshop-info {
+  padding: 4rem 0;
+}
+.webshop-info .container-fluid {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.webshop-info .container-fluid .info-box {
+  margin: 0 2rem;
+  flex: 1;
+  border: 1px solid black;
 }
 
 @media (min-width: 578px) {
