@@ -260,10 +260,12 @@ html, body {
 
         .info-box {
             background-color: var(--color-theme-light);
+            padding: 1rem;
             display: flex;
             align-items: center;
-            margin: 0 2rem;
+            margin: 0 1rem;
             flex: 1;
+            border-radius: var(--border-radius-small);
 
             img {
                 margin-right: 1.5rem;
@@ -271,13 +273,22 @@ html, body {
 
             h1 {
                 color: var(--color-theme);
-                font-size: var(--font-size-16);
+                font-size: 1rem;
                 font-weight: var(--border-radius-medium);
             }
         }
+            .info-box:hover {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            }
+                .info-box:hover h1 {
+                color: var(--color-white);
+                }
+                .info-box:hover img {
+                filter: sepia(0%) brightness(1000%);
+                }
     }
 }
-
 
 
 

@@ -222,18 +222,30 @@ html, body {
 }
 .webshop-info .container .info-box {
   background-color: var(--color-theme-light);
+  padding: 1rem;
   display: flex;
   align-items: center;
-  margin: 0 2rem;
+  margin: 0 1rem;
   flex: 1;
+  border-radius: var(--border-radius-small);
 }
 .webshop-info .container .info-box img {
   margin-right: 1.5rem;
 }
 .webshop-info .container .info-box h1 {
   color: var(--color-theme);
-  font-size: var(--font-size-16);
+  font-size: 1rem;
   font-weight: var(--border-radius-medium);
+}
+.webshop-info .container .info-box:hover {
+  background-color: var(--color-theme);
+  color: var(--color-white);
+}
+.webshop-info .container .info-box:hover h1 {
+  color: var(--color-white);
+}
+.webshop-info .container .info-box:hover img {
+  filter: sepia(0%) brightness(1000%);
 }
 
 @media (min-width: 578px) {
