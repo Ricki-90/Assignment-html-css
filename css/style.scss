@@ -259,16 +259,23 @@ html, body {
         justify-content: space-evenly;
 
         .info-box {
+            background-color: var(--color-theme-light);
+            display: flex;
+            align-items: center;
             margin: 0 2rem;
             flex: 1;
+
+            img {
+                margin-right: 1.5rem;
+            }
+
+            h1 {
+                color: var(--color-theme);
+                font-size: var(--font-size-16);
+                font-weight: var(--border-radius-medium);
+            }
         }
-
-
     }
-
-
-
-
 }
 
 
