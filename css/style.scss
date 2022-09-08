@@ -66,6 +66,7 @@ html, body {
 }
 
 .section-title {
+    padding: 4rem 0;
     color: var(--color-theme-dark);
     text-align: center;
 
@@ -77,6 +78,10 @@ html, body {
         span {
             color: var(--color-theme);
         }
+    }
+
+    p {
+        margin: 1rem;
     }
 }
 
@@ -308,7 +313,30 @@ html, body {
 }
 
 /*shop-by-category*/
+.shop-by-category {
 
+    .grid {
+        display: grid;
+        gap: 0.8rem;
+        grid-template-columns: repeat(5, 214px);
+        grid-template-rows: repeat(3, 214px);
+
+        .category-box {
+            background-color: var(--color-gray-1);
+            border-radius: var(--border-radius-small);
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+
+            .category-box-title {
+                background-color: var(--color-theme-dark);
+                color: var(--color-theme);
+                padding: 0.5rem 1rem;
+                font-weight: var(--font-weight-medium);
+            }
+        }
+    }
+}
 
 
 
