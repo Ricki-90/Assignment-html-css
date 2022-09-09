@@ -280,6 +280,8 @@ html, body {
   overflow: hidden;
 }
 .shop-by-category .grid .category-box .category-box-title {
+  width: 50%;
+  border-radius: 0 var(--border-radius-small) 0 0;
   background-color: var(--color-theme-dark);
   color: var(--color-theme);
   padding: 0.5rem 1rem;
