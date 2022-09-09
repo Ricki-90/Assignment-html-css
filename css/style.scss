@@ -322,6 +322,7 @@ html, body {
         grid-template-rows: repeat(3, minmax(100px, 249px));
 
         .category-box {
+            position: relative;
             background-color: var(--color-gray-1);
             border-radius: var(--border-radius-small);
             height: 100%;
@@ -329,6 +330,9 @@ html, body {
             overflow: hidden;
 
             .category-box-title {
+                position: absolute;
+                left: 0;
+                bottom: 0;
                 width: 50%;
                 border-radius: 0 var(--border-radius-small) 0 0;
                 background-color: var(--color-theme-dark);
