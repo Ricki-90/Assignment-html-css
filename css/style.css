@@ -61,6 +61,10 @@ html, body {
   background-color: var(--color-theme-dark);
 }
 
+.bg-theme {
+  background-color: var(--color-theme);
+}
+
 .section-title {
   padding: 3rem 0;
   color: var(--color-theme-dark);
@@ -167,6 +171,18 @@ html, body {
 }
 .header-menu-middle > .container .menu-links .menu-link i {
   font-size: var(--font-size-16);
+}
+.header-menu-middle > .container .menu-links #cart {
+  position: relative;
+}
+.header-menu-middle > .container .menu-links #cart .badge {
+  background-color: var(--color-theme);
+  position: absolute;
+  top: -1.2rem;
+  left: 0.7rem;
+}
+.header-menu-middle > .container .menu-links #cart:hover .badge {
+  background-color: var(--color-dark);
 }
 
 .header-menu-bottom {
