@@ -306,15 +306,19 @@ html, body {
             margin: 0 1rem;
             flex: 1;
             border-radius: var(--border-radius-small);
+            transition: 0.3s ease-in-out;
 
             img {
                 margin-right: 1.5rem;
+                transition: 0.3s ease-in-out;
+                filter: brightness(100%);
             }
 
             h1 {
                 color: var(--color-theme);
                 font-size: 1rem;
                 font-weight: var(--border-radius-medium);
+                transition: 0.3s ease-in-out;
             }
         }
             .info-box:hover {
@@ -325,7 +329,7 @@ html, body {
                 color: var(--color-white);
                 }
                 .info-box:hover img {
-                filter: sepia(0%) brightness(1000%);
+                filter: brightness(1000%);
                 }
     }
 }
@@ -358,6 +362,7 @@ html, body {
                 padding: 0.5rem 1rem;
                 font-weight: var(--font-weight-medium);
                 height: 38px;
+                transition: 0.2s ease-in-out;
 
                 span {
                     display: block;
@@ -403,7 +408,9 @@ html, body {
     }
 }
 
-
+.new-arrivals {
+    margin-top: 6rem;
+}
 
 
 

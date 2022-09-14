@@ -261,14 +261,18 @@ html, body {
   margin: 0 1rem;
   flex: 1;
   border-radius: var(--border-radius-small);
+  transition: 0.3s ease-in-out;
 }
 .webshop-info .container .info-box img {
   margin-right: 1.5rem;
+  transition: 0.3s ease-in-out;
+  filter: brightness(100%);
 }
 .webshop-info .container .info-box h1 {
   color: var(--color-theme);
   font-size: 1rem;
   font-weight: var(--border-radius-medium);
+  transition: 0.3s ease-in-out;
 }
 .webshop-info .container .info-box:hover {
   background-color: var(--color-theme);
@@ -278,7 +282,7 @@ html, body {
   color: var(--color-white);
 }
 .webshop-info .container .info-box:hover img {
-  filter: sepia(0%) brightness(1000%);
+  filter: brightness(1000%);
 }
 
 /*shop-by-category*/
@@ -307,6 +311,7 @@ html, body {
   padding: 0.5rem 1rem;
   font-weight: var(--font-weight-medium);
   height: 38px;
+  transition: 0.2s ease-in-out;
 }
 .shop-by-category .grid .category-box .category-box-title span {
   display: block;
@@ -344,6 +349,10 @@ html, body {
 .shop-by-category .grid #category-box-7 {
   grid-column: 5/-1;
   grid-row: 3/-1;
+}
+
+.new-arrivals {
+  margin-top: 6rem;
 }
 
 @media (min-width: 578px) {
