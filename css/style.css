@@ -354,6 +354,17 @@ html, body {
 .new-arrivals {
   padding-top: 6rem;
 }
+.new-arrivals .card {
+  position: relative;
+  height: 400px;
+  width: 350px;
+}
+.new-arrivals .card .card-body {
+  position: absolute;
+}
+.new-arrivals .card img {
+  height: 400px;
+}
 
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {

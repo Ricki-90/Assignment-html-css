@@ -410,6 +410,20 @@ html, body {
 
 .new-arrivals {
     padding-top: 6rem;
+
+    .card {
+        position: relative;
+        height: 400px;
+        width: 350px;
+
+        .card-body {
+            position: absolute;
+        }
+
+        img {
+            height: 400px;
+        }
+    }
 }
 
 
