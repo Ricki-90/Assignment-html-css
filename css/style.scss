@@ -428,23 +428,29 @@ html, body {
         .card-menu {
             position: absolute;
             z-index: 1;
-            top: 101%;
-            right: 15%;
+            top: 121%;
+            right: 10%;
             list-style: none;
             margin: auto;
-            padding: 0.5rem;
+            padding: 0.8rem;
             font-size: 1.25rem;
             border-radius: var(--border-radius-medium);
             background-color: var(--color-white);
             transition: top 0.3s ease-in-out;
 
-                li a {
-                    color: var(--color-gray-0);
-                }
+            li {
+                margin-top: 0.2rem;
+                margin-bottom: 0.2rem;
+                font-size: 1.0em;
+            }
 
-                li a:hover {
-                    color: var(--color-theme);
-                }
+            li a {
+                color: var(--color-gray-0);
+            }
+
+            li a:hover {
+                color: var(--color-theme);
+            }
         }
 
         img {
@@ -454,14 +460,44 @@ html, body {
         .card-body {
             position: absolute;
             bottom: 0;
+            height: 14%;
             color: var(--color-white);
             z-index: 1;
             transition: 0.3s ease-in-out;
-        }
 
+            .card-h1 {
+                font-size: 1.125rem;
+            }
+
+            button {
+                background-color: transparent;
+                color: var(--color-white);
+                border-color: var(--color-white);
+            }
+        }
+        
+        .card-background {
+            position: absolute;
+            bottom: 0;
+            height: 15%;
+            width: 100%;
+            background-color: var(--color-theme-dark);
+            opacity: 90%;
+            transition: height 0.3s ease-in-out;
+        }
     }
+
+    /* Hover */
     .card:hover .card-menu {
         top: 20px;
+    }
+
+    .card:hover .card-background {
+        height: 100%;
+    }
+
+    .card:hover .card-body {
+        height: 40%;
     }
 }
 
