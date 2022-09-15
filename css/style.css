@@ -361,6 +361,13 @@ html, body {
 }
 .new-arrivals .card .card-body {
   position: absolute;
+  bottom: 0;
+  color: var(--color-white);
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+.new-arrivals .card .card-body .h1 {
+  font-size: 1.125rem;
 }
 .new-arrivals .card img {
   height: 400px;
