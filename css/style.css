@@ -65,6 +65,14 @@ html, body {
   background-color: var(--color-theme);
 }
 
+.instock {
+  color: var(--color-product-instock);
+}
+
+.outofstock {
+  color: var(--color-product-outofstock);
+}
+
 .section-title {
   padding: 3rem 0;
   color: var(--color-theme-dark);
@@ -358,6 +366,29 @@ html, body {
   position: relative;
   height: 400px;
   width: 350px;
+  overflow: hidden;
+}
+.new-arrivals .card .card-menu {
+  position: absolute;
+  z-index: 1;
+  top: 101%;
+  right: 15%;
+  list-style: none;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  border-radius: var(--border-radius-medium);
+  background-color: var(--color-white);
+  transition: top 0.3s ease-in-out;
+}
+.new-arrivals .card .card-menu li a {
+  color: var(--color-gray-0);
+}
+.new-arrivals .card .card-menu li a:hover {
+  color: var(--color-theme);
+}
+.new-arrivals .card img {
+  height: 400px;
 }
 .new-arrivals .card .card-body {
   position: absolute;
@@ -366,11 +397,8 @@ html, body {
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
-.new-arrivals .card .card-body .h1 {
-  font-size: 1.125rem;
-}
-.new-arrivals .card img {
-  height: 400px;
+.new-arrivals .card:hover .card-menu {
+  top: 20px;
 }
 
 @media (min-width: 578px) {
