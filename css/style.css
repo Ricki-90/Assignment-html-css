@@ -12,6 +12,7 @@
   --color-gray-2: #E3E3E3;
   --color-gray-3: #EEEEEE;
   --color-gray-4: #F6F6F6;
+  --color-gray-5: #777777;
   --color-product-instock: #82d8c6;
   --color-product-outofstock: #FE6C6C;
   --font-play: "Play", sans-serif;
@@ -497,6 +498,36 @@ html, body {
 .site-title .container .breadcrumb li a:hover {
   color: var(--color-theme-light);
   text-decoration: underline;
+}
+
+.signup-signin {
+  margin: 6rem 0;
+}
+.signup-signin .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.signup-signin .container .card {
+  padding: 1.5rem;
+  border: none;
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-gray-4);
+}
+.signup-signin .container .card h1 {
+  font-family: var(--font-roboto);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-theme-dark);
+  font-size: 1.5rem;
+}
+.signup-signin .container .card .card-text {
+  margin: 1.5rem 0;
+  line-height: 2;
+}
+.signup-signin .container .card .text-small {
+  color: var(--color-gray-5);
+  font-size: 0.875rem;
 }
 
 @media (min-width: 578px) {
