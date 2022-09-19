@@ -611,13 +611,17 @@ html, body {
                 color: var(--color-gray-5);
                 font-size: 0.875rem;
             }
-            
-
         }
     }
 }
 
-
+#signupForm input {
+    display: block;
+    width: 100%;
+    border-radius: var(--border-radius-small);
+    padding: 0.5rem;
+    margin: 0.3rem 0;
+}
 
 
 

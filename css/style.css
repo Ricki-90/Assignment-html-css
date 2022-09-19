@@ -535,6 +535,14 @@ html, body {
   font-size: 0.875rem;
 }
 
+#signupForm input {
+  display: block;
+  width: 100%;
+  border-radius: var(--border-radius-small);
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+}
+
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {
     display: block;
