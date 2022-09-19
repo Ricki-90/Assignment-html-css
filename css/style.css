@@ -80,6 +80,10 @@ html, body {
   color: var(--color-product-outofstock);
 }
 
+.required {
+  color: var(--color-theme);
+}
+
 .section-title {
   padding: 3rem 0;
   color: var(--color-theme-dark);
@@ -508,6 +512,7 @@ html, body {
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 2rem;
        column-gap: 2rem;
+  align-items: flex-start;
 }
 .signup-signin .container .card {
   padding: 1.5rem;

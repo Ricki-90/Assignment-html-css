@@ -83,6 +83,10 @@ html, body {
     color: var(--color-product-outofstock);
 }
 
+.required {
+    color: var(--color-theme);
+}
+
 .section-title {
     padding: 3rem 0;
     color: var(--color-theme-dark);
@@ -583,6 +587,7 @@ html, body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
+        align-items: flex-start;
         
         .card {
             padding: 1.5rem;
