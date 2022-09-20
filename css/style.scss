@@ -107,6 +107,16 @@ html, body {
     }
 }
 
+a {
+    color: var(--color-theme);
+    font-weight: var(--font-weight-regular);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-theme-dark);
+    text-decoration: underline;
+}
         
 .card {
     padding: 1.5rem;
@@ -131,14 +141,7 @@ html, body {
         line-height: 2;
 
         a {
-            color: var(--color-theme);
             font-weight: var(--font-weight-medium);
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: var(--color-theme-dark);
-            text-decoration: underline;
         }
     } 
 }
@@ -643,8 +646,46 @@ html, body {
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
         align-items: flex-start;
-    }
+    } 
 } 
+
+
+.external-logins {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .label {
+        background-color: var(--color-gray-4);
+        padding: 0 1rem;
+        z-index: 1;
+    }
+
+    .line {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        border: 1px solid var(--color-gray-0);
+        z-index: 0;
+        opacity: 0.5;
+   }
+}
+
+.external-socialmedia-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    
+    .facebook-button {
+        background-image: url(../images/buttons/Facebook-login-button.svg);
+    }
+    .google-button {
+        background-image: url(../images/buttons/Google-login-button.svg);
+    }
+
+}
+
 
 
 
