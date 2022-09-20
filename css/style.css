@@ -101,6 +101,58 @@ html, body {
   margin: 1rem;
 }
 
+.card {
+  padding: 1.5rem;
+  border: none;
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-gray-4);
+}
+.card h1 {
+  font-family: var(--font-roboto);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-theme-dark);
+  font-size: 1.5rem;
+}
+.card .text-small {
+  color: var(--color-gray-5);
+  font-size: 0.875rem;
+}
+.card .card-text {
+  margin: 1.5rem 0;
+  line-height: 2;
+}
+.card .card-text a {
+  color: var(--color-theme);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+.card .card-text a:hover {
+  color: var(--color-theme-dark);
+  text-decoration: underline;
+}
+
+.form-theme form input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.form-theme form input[type=text],
+.form-theme form input[type=email],
+.form-theme form input[type=password] {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: var(--border-radius-small);
+  padding: 0.6rem 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.form-theme form input:focus {
+  outline: 0;
+  box-shadow: 0 0 3px 0 var(--color-gray-0);
+}
+
 /* header-menu-top */
 .header-menu-top {
   background-color: var(--color-theme);
@@ -513,40 +565,6 @@ html, body {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
   align-items: flex-start;
-}
-.signup-signin .container .card {
-  padding: 1.5rem;
-  border: none;
-  border-radius: var(--border-radius-small);
-  background-color: var(--color-gray-4);
-}
-.signup-signin .container .card h1 {
-  font-family: var(--font-roboto);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-theme-dark);
-  font-size: 1.5rem;
-}
-.signup-signin .container .card .card-text {
-  margin: 1.5rem 0;
-  line-height: 2;
-}
-.signup-signin .container .card .text-small {
-  color: var(--color-gray-5);
-  font-size: 0.875rem;
-}
-
-#signupForm input {
-  display: block;
-  width: 100%;
-  border: none;
-  border-radius: var(--border-radius-small);
-  padding: 0.6rem 0.9rem;
-  margin: 0.2rem 0;
-}
-
-#signupForm input:focus {
-  outline: 0;
-  box-shadow: 0 0 3px 0 var(--color-gray-0);
 }
 
 @media (min-width: 578px) {
