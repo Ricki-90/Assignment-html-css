@@ -598,11 +598,31 @@ a:hover {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
 }
-.external-socialmedia-buttons .facebook-button {
+.external-socialmedia-buttons .facebook-button button {
   background-image: url(../images/buttons/Facebook-login-button.svg);
+  background-repeat: no-repeat;
+  border: none;
+  height: 42px;
+  width: 235px;
+}
+.external-socialmedia-buttons .facebook-button {
+  text-align: left;
+}
+.external-socialmedia-buttons .facebook-button button:hover {
+  filter: brightness(90%);
+}
+.external-socialmedia-buttons .google-button button {
+  background-image: url(../images/buttons/Google-login-button.svg);
+  background-repeat: no-repeat;
+  border: none;
+  height: 42px;
+  width: 235px;
 }
 .external-socialmedia-buttons .google-button {
-  background-image: url(../images/buttons/Google-login-button.svg);
+  text-align: right;
+}
+.external-socialmedia-buttons .google-button button:hover {
+  filter: brightness(90%);
 }
 
 @media (min-width: 578px) {

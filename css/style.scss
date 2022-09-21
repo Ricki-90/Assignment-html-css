@@ -677,11 +677,39 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
     
-    .facebook-button {
+
+
+    .facebook-button button {
         background-image: url(../images/buttons/Facebook-login-button.svg);
+        background-repeat: no-repeat;
+        border: none;
+        height: 42px;
+        width: 235px;
     }
-    .google-button {
+
+    .facebook-button {
+        text-align: left;
+    }
+
+    .facebook-button button:hover {
+        filter: brightness(90%);
+    }
+
+
+    .google-button button {
         background-image: url(../images/buttons/Google-login-button.svg);
+        background-repeat: no-repeat;
+        border: none;
+        height: 42px;
+        width: 235px;
+    }
+
+    .google-button {
+        text-align: right;
+    }
+
+    .google-button button:hover {
+        filter: brightness(90%);
     }
 
 }
