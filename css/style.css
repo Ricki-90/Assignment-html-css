@@ -106,7 +106,6 @@ a {
   font-weight: var(--font-weight-regular);
   text-decoration: none;
 }
-
 a:hover {
   color: var(--color-theme-dark);
   text-decoration: underline;
@@ -225,6 +224,37 @@ a:hover {
 .header-menu-middle > .container .search {
   flex: 4;
 }
+.header-menu-middle > .container .search #searchboxForm {
+  position: relative;
+  border-radius: var(--border-radius-medium);
+  height: 45px;
+  margin: auto;
+}
+.header-menu-middle > .container .search #searchboxForm input {
+  position: absolute;
+  border-radius: var(--border-radius-medium);
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--color-gray-2);
+  font-size: 0.9rem;
+  padding-left: 1.3rem;
+}
+.header-menu-middle > .container .search #searchboxForm button {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  width: 50px;
+  height: 100%;
+  background-color: var(--color-theme);
+  color: var(--color-white);
+  border: none;
+  border-radius: 0 var(--border-radius-medium) var(--border-radius-medium) 0;
+  transition: 0.3s ease-in-out;
+}
+.header-menu-middle > .container .search #searchboxForm button:hover {
+  background-color: var(--color-theme-dark);
+}
 .header-menu-middle > .container .menu-links {
   flex: 3;
   display: flex;
@@ -286,14 +316,18 @@ a:hover {
   transition: 0.4s ease-in-out;
 }
 .header-menu-bottom > .container .browse-categories button:hover {
-  background-color: var(--color-white);
-  color: var(--color-dark);
+  background-color: var(--color-theme-dark-light);
+  color: var(--color-white);
 }
 .header-menu-bottom > .container .special-offer {
   flex: 7;
   display: flex;
   justify-content: end;
   align-items: center;
+}
+.header-menu-bottom > .container .special-offer .btn:hover {
+  background-color: var(--color-theme-dark-light);
+  color: var(--color-white);
 }
 
 /* showcase */
@@ -315,6 +349,11 @@ a:hover {
 }
 .showcase .container .showcase-body p {
   margin: 2rem 0;
+}
+.showcase .container .showcase-body .btn:hover {
+  background-color: var(--color-theme-dark-light);
+  color: var(--color-white);
+  text-decoration: none;
 }
 .showcase .container img {
   display: none;
@@ -429,13 +468,13 @@ a:hover {
 
 .new-arrivals {
   padding-top: 6rem;
-  /* Hover */
 }
 .new-arrivals .card {
   position: relative;
   height: 380px;
   width: 320px;
   overflow: hidden;
+  /* Hover */
 }
 .new-arrivals .card .card-menu {
   position: absolute;
@@ -461,12 +500,13 @@ a:hover {
   color: var(--color-theme);
 }
 .new-arrivals .card img {
-  height: auto;
+  height: 310px;
 }
 .new-arrivals .card .card-body {
   position: absolute;
   padding: 1rem;
   bottom: 0;
+  right: 0;
   height: 14%;
   width: 100%;
   color: var(--color-white);
@@ -479,6 +519,7 @@ a:hover {
   margin-bottom: 1rem;
   transition: 0.3s ease-in-out;
   font-weight: var(--font-weight-regular);
+  color: var(--color-white);
 }
 .new-arrivals .card .card-body button {
   background-color: transparent;
@@ -502,6 +543,7 @@ a:hover {
 .new-arrivals .card .card-background {
   position: absolute;
   bottom: 0;
+  right: 0;
   height: 15%;
   width: 100%;
   background-color: var(--color-theme-dark);
@@ -571,6 +613,10 @@ a:hover {
        column-gap: 2rem;
   align-items: flex-start;
 }
+.signup-signin .container .btn:hover {
+  background-color: var(--color-theme-dark-light);
+  color: var(--color-white);
+}
 
 .external-logins {
   position: relative;
@@ -605,11 +651,11 @@ a:hover {
   height: 42px;
   width: 235px;
 }
-.external-socialmedia-buttons .facebook-button {
-  text-align: left;
-}
 .external-socialmedia-buttons .facebook-button button:hover {
   filter: brightness(90%);
+}
+.external-socialmedia-buttons .facebook-button {
+  text-align: left;
 }
 .external-socialmedia-buttons .google-button button {
   background-image: url(../images/buttons/Google-login-button.svg);
@@ -618,11 +664,18 @@ a:hover {
   height: 42px;
   width: 235px;
 }
+.external-socialmedia-buttons .google-button button:hover {
+  filter: brightness(90%);
+}
 .external-socialmedia-buttons .google-button {
   text-align: right;
 }
-.external-socialmedia-buttons .google-button button:hover {
-  filter: brightness(90%);
+
+.showcase-middle {
+  height: 400px;
+  width: 100%;
+  background-color: var(--color-gray-1);
+  margin-top: 9rem;
 }
 
 @media (min-width: 578px) {
@@ -669,4 +722,4 @@ a:hover {
     flex: 1;
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
