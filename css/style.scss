@@ -819,8 +819,6 @@ a {
                 padding: 0.7rem 1rem;
                 transition: 0.4s ease-in-out;
                 
-                
-
                 &:hover {
                     background-color: var(--color-theme-dark-light);
                     color: var(--color-white);
@@ -856,10 +854,86 @@ a {
     }
 }
 
+.showcase-middle-flash {
+    height: 418px;
+    width: 100%;
+    background-color: var(--color-theme-dark);
+    margin-top: 9rem;
 
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
+        .flash-off {
+            height: 255px;
+            width: 255px;
+            background-color: var(--color-theme);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 3rem;
 
+            h1 {
+                font-family: var(--font-play);
+                font-weight: var(--font-weight-bold);
+                font-size: var(--font-size-36);
+                color: var(--color-white);
+                padding-left: 3.5rem;
+            }
 
+            h2 {
+                font-family: var(--font-roboto);
+                font-weight: var(--font-weight-regular);
+                font-size: var(--font-size-14);
+                color: var(--color-white);
+                padding-bottom: 1.2rem;
+            }
+        }
+
+        .circle-and-btn {
+            display: flex;
+
+            .time-circle {
+                height: 109px;
+                width: 109px;
+                background-color: var(--color-white);
+                border: 2px dotted var(--color-theme);
+                border-radius: var(--border-radius-rounded);
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                padding-top: 1rem;
+
+                .time-digit {
+                    color: var(--color-theme);
+                    font-size: var(--font-size-24);
+                    font-family: var(--font-play);
+                    font-weight: var(--font-weight-bold);
+                    margin: 0;
+                }
+
+                .time-text {
+                    color: var(--color-dark);
+                    font-size: 15px;
+                    font-family: var(--font-roboto);
+                    font-weight: var(--font-weight-regular);
+                    margin: 0;                    
+                }
+            }
+        }
+        button {
+            position: absolute;
+            margin: 8rem 0 0rem 8rem;
+            background-color: var(--color-white);
+            color: var(--color-theme);
+            border-radius: var(--border-radius-medium);
+            font-weight: var(--font-weight-medium);
+            padding-left: 1.75rem;
+            padding-right: 1.75rem;
+        }
+    }
+} 
 
 
 
