@@ -771,11 +771,11 @@ a:hover {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-36);
   color: var(--color-white);
-  padding-left: 3.5rem;
+  text-align: center;
 }
 .showcase-middle-flash .container .flash-off h2 {
   font-family: var(--font-roboto);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
   font-size: var(--font-size-14);
   color: var(--color-white);
   padding-bottom: 1.2rem;
@@ -880,6 +880,49 @@ a:hover {
   text-align: left;
   margin: 0;
 }
+.subscribe .container .section-title #searchboxForm {
+  position: relative;
+  border-radius: var(--border-radius-medium);
+  height: 45px;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.subscribe .container .section-title #searchboxForm input {
+  position: absolute;
+  border-radius: var(--border-radius-medium);
+  height: 100%;
+  width: 445px;
+  outline: none;
+  border: 1px solid var(--color-gray-2);
+  font-size: 0.9rem;
+  padding-left: 1.3rem;
+  align-items: baseline;
+}
+.subscribe .container .section-title #searchboxForm button {
+  position: absolute;
+  right: -54px;
+  width: 110px;
+  height: 35px;
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: var(--color-theme);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius-medium);
+  transition: 0.3s ease-in-out;
+}
+.subscribe .container .section-title #searchboxForm button:hover {
+  background-color: var(--color-theme-dark);
+}
+.subscribe .container .section-title #searchboxForm input::-moz-placeholder {
+  color: var(--color-gray-0);
+}
+.subscribe .container .section-title #searchboxForm input:-ms-input-placeholder {
+  color: var(--color-gray-0);
+}
+.subscribe .container .section-title #searchboxForm input::placeholder {
+  color: var(--color-gray-0);
+}
 .subscribe .container .blank-gray {
   height: 314px;
   width: 540px;
@@ -892,11 +935,12 @@ a:hover {
   width: 100%;
   background-color: var(--color-dark);
 }
-.copyright-kenkata .container p {
+.copyright-kenkata p {
   color: var(--color-white);
   font-family: var(--font-roboto);
   font-size: var(--font-size-16);
   padding-top: 1.5rem;
+  font-weight: var(--font-weight-regular);
 }
 
 @media (min-width: 578px) {
