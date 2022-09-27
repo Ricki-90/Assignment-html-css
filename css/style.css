@@ -871,7 +871,6 @@ a:hover {
   background-color: var(--color-gray-4);
   width: 100%;
   height: 314px;
-  border: 1px solid black;
   margin-top: 6rem;
 }
 .subscribe .container .section-title h1 {
@@ -886,6 +885,18 @@ a:hover {
   width: 540px;
   background-color: var(--color-gray-1);
   margin-right: 13%;
+}
+
+.copyright-kenkata {
+  height: 80px;
+  width: 100%;
+  background-color: var(--color-dark);
+}
+.copyright-kenkata .container p {
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-16);
+  padding-top: 1.5rem;
 }
 
 @media (min-width: 578px) {
