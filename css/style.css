@@ -791,9 +791,6 @@ a:hover {
   background-color: var(--color-white);
   border: 2px dotted var(--color-theme);
   border-radius: var(--border-radius-rounded);
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   margin: 0.8rem;
   margin-top: 5rem;
 }
@@ -802,18 +799,16 @@ a:hover {
   font-size: var(--font-size-24);
   font-family: var(--font-play);
   font-weight: var(--font-weight-bold);
-  display: flex;
-  justify-content: center;
   margin: 0;
   margin-top: 1rem;
+  text-align: center;
 }
 .showcase-middle-flash .container .circle-and-btn .time-circle .time-text {
   color: var(--color-dark);
-  font-size: 15px;
+  font-size: 16px;
   font-family: var(--font-roboto);
   font-weight: var(--font-weight-regular);
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .showcase-middle-flash .container button {
   position: absolute;
@@ -854,6 +849,13 @@ a:hover {
   height: 15%;
   margin-bottom: 0;
 }
+.top-sellers .card-grider:hover .card-body-large-img {
+  margin-bottom: 1rem;
+}
+.top-sellers .card-grider:hover .card-body-big-img .card-h1-big-img {
+  margin-bottom: 0;
+  margin-top: 7rem;
+}
 .top-sellers #category-box-10 {
   grid-column: 1/3;
   grid-row: 1/3;
@@ -873,21 +875,21 @@ a:hover {
   height: 314px;
   margin-top: 6rem;
 }
-.subscribe .container .section-title h1 {
+.subscribe .section-title h1 {
   text-align: left;
 }
-.subscribe .container .section-title p {
+.subscribe .section-title p {
   text-align: left;
   margin: 0;
 }
-.subscribe .container .section-title #searchboxForm {
+.subscribe .section-title #searchboxForm {
   position: relative;
   border-radius: var(--border-radius-medium);
   height: 45px;
   margin-top: 1.5rem;
   display: flex;
 }
-.subscribe .container .section-title #searchboxForm input {
+.subscribe .section-title #searchboxForm input {
   position: absolute;
   border-radius: var(--border-radius-medium);
   height: 100%;
@@ -898,7 +900,7 @@ a:hover {
   padding-left: 1.3rem;
   align-items: baseline;
 }
-.subscribe .container .section-title #searchboxForm button {
+.subscribe .section-title #searchboxForm button {
   position: absolute;
   right: -54px;
   width: 110px;
@@ -911,19 +913,19 @@ a:hover {
   border-radius: var(--border-radius-medium);
   transition: 0.3s ease-in-out;
 }
-.subscribe .container .section-title #searchboxForm button:hover {
+.subscribe .section-title #searchboxForm button:hover {
   background-color: var(--color-theme-dark);
 }
-.subscribe .container .section-title #searchboxForm input::-moz-placeholder {
+.subscribe .section-title #searchboxForm input::-moz-placeholder {
   color: var(--color-gray-0);
 }
-.subscribe .container .section-title #searchboxForm input:-ms-input-placeholder {
+.subscribe .section-title #searchboxForm input:-ms-input-placeholder {
   color: var(--color-gray-0);
 }
-.subscribe .container .section-title #searchboxForm input::placeholder {
+.subscribe .section-title #searchboxForm input::placeholder {
   color: var(--color-gray-0);
 }
-.subscribe .container .blank-gray {
+.subscribe .blank-gray {
   height: 314px;
   width: 540px;
   background-color: var(--color-gray-1);
@@ -943,6 +945,7 @@ a:hover {
   font-weight: var(--font-weight-regular);
 }
 
+/* Media */
 @media (min-width: 578px) {
   .header-menu-top .container .menu-links {
     display: block;
