@@ -32,7 +32,10 @@
     --border-radius-rounded: 50%;
 }
 
-/* general */
+/* Below you will find in comment the name of each html classification.
+General applies to various ready-made features that I use in this css file */
+
+/* General */
 html, body {
     font-size: 16px;
     line-height: 1.5;
@@ -229,6 +232,7 @@ a {
     }
 }
 
+
 /* header-menu-middle */
 .header-menu-middle {
     background-color: var(--color-white);
@@ -327,6 +331,7 @@ a {
     }
 }
 
+/* header-menu-bottom */
 .header-menu-bottom {
     border-top: 1px solid var(--color-gray-2);
     border-bottom: 1px solid var(--color-gray-2);
@@ -371,6 +376,7 @@ a {
     }
 }
 
+
 /* showcase */
 .showcase {
     background-color: var(--color-gray-3);
@@ -409,6 +415,7 @@ a {
         } 
     }
 }
+
 
 /*webshop-info*/
 .webshop-info {
@@ -455,6 +462,7 @@ a {
         }
     }
 }
+
 
 /*shop-by-category*/
 .shop-by-category {
@@ -530,6 +538,7 @@ a {
     }
 }
 
+/* new-arrivals */
 .new-arrivals {
     padding-top: 6rem;
 
@@ -643,6 +652,7 @@ a {
     }
 }
 
+/* site-title */
 .site-title {
     background-color: var(--color-theme-dark-light);
     color: var(--color-white);
@@ -687,6 +697,7 @@ a {
     }
 }
 
+/* signup-signin */
 .signup-signin {
     margin: 6rem 0;
 
@@ -703,7 +714,7 @@ a {
     } 
 } 
 
-
+/* external-logins */
 .external-logins {
     position: relative;
     display: flex;
@@ -726,6 +737,7 @@ a {
     }
 }
 
+/* external-socialmedia-buttons */
 .external-socialmedia-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -764,6 +776,7 @@ a {
     }
 }
 
+/* showcase-middle */
 .showcase-middle {
     height: 418px;
     width: 100%;
@@ -851,6 +864,7 @@ a {
     }
 }
 
+/* showcase-middle-flash */
 .showcase-middle-flash {
     height: 418px;
     width: 100%;
@@ -941,6 +955,7 @@ a {
     }
 } 
 
+/* top-sellers */
 .top-sellers {
     display: grid;
     grid-template-columns: repeat(4, 275px);
@@ -994,7 +1009,7 @@ a {
     }
 }
 
-
+/* subscribe */
 .subscribe {
     background-color: var(--color-gray-4);
     width: 100%;
@@ -1065,7 +1080,7 @@ a {
       
 }
 
-
+/* copyright-kenkata */
 .copyright-kenkata {
     height: 80px;
     width: 100%;
@@ -1081,9 +1096,7 @@ a {
 }
 
 
-
 /* Media */
-
 @media (min-width: 578px) {
     .header-menu-top .container .menu-links {
         display: block;
