@@ -653,6 +653,34 @@ a {
         &:hover .card-body .card-h1 {
         margin-bottom: 0;
         }
+
+        &:hover .add-cart {
+            position: absolute;
+            width: 95px;
+            height: 29px;
+            margin: 0;
+            bottom: 110%;
+            left: 50%;
+            transition: left 0.6s ease-in-out;
+        }
+
+        &:hover .quick-view {
+            position: absolute;
+            width: 93px;
+            height: 29px;
+            margin: 0;
+            bottom: 110%;
+            left: 72%;
+            transition: left 0.6s ease-in-out;
+        }
+
+        &:hover .cart-green {
+            color: var(--color-theme);
+        }
+
+        &:hover .glass-green {
+            color: var(--color-theme);
+        }
     }
 }
 
