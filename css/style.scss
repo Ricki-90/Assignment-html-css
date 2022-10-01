@@ -33,7 +33,7 @@
 }
 
 /* Below you will find in comment the name of each html classification.
-General applies to various ready-made features that I use in this css file */
+General applies to various ready-made features that I use in this css file. */
 
 /* General */
 html, body {
@@ -206,8 +206,8 @@ a {
 
         .menu-links {
         display: none;
-        }
-            .menu-links {          
+        
+
             a {
             color: var(--color-white);
             text-decoration: none;
@@ -223,14 +223,14 @@ a {
             font-size: var(--font-size-14)
             }
 
-            .social-media a {
+             .social-media a {
             margin: 0 0.3rem;
             }
                 
             .social-media a:last-child {
             margin: 0 0 0 0.3rem;
             } 
-            } 
+        }
     }
 }
 
@@ -250,6 +250,7 @@ a {
         .brand {
             flex: 2;
         }
+
         .search {
             flex: 4;
 
@@ -304,6 +305,7 @@ a {
                     color: var(--color-theme);
                 }
             }
+
             .menu-link:last-child {
                 margin: 0 0 0 0.8rem;
             }
@@ -510,7 +512,6 @@ a {
         .category-box:hover .category-box-title {
             height: 75px;
         }
-
         #category-box-1 {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
